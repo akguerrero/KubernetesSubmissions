@@ -1,0 +1,37 @@
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Egg-related files
+*.egg-info/
+.eggs/
+
+# --- Virtual Environments ---
+# Never commit your environment
+.venv/
+venv/
+env/
+ENV/
+
+# --- Dependency & Package Artifacts ---
+dist/
+build/
+*.egg
+
+# --- Secrets & Configuration ---
+# Never commit secrets
+.env
+*.env
+
+# --- IDE & Editor Files ---
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
