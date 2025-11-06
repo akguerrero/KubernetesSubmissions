@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: app
-        image: akguerrerok/todo-app
+        image: akguerrerok/todo-app:0.1
